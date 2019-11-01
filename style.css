@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Impact';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Impact Regular'), local('Impact-Regular'),
+        url('../fonts/Impact.woff2') format('woff2'),
+        url('../fonts/Impact.woff') format('woff');
+}
+@font-face {
+    font-family: 'Bebas_Neue';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Bebas Neue Regular'), local('Bebas-Neue-Regular'),
+        url('../fonts/Bebas_Neue_Regular.woff2') format('woff2'),
+        url('../fonts/Bebas_Neue_Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Imprima';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Imprima Regular'), local('Imprima-Regular'),
+        url('../fonts/Imprima.woff2') format('woff2'),
+        url('../fonts/Imprima.woff') format('woff');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Roboto Regular'), local('Roboto-Regular'),
+        url('../fonts/Roboto.woff2') format('woff2'),
+        url('../fonts/Roboto.woff') format('woff');
+}
+@font-face {
+    font-family: 'Tienne';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Tienne Regular'), local('Tienne-Regular'),
+        url('../fonts/Tienne_Regular.woff2') format('woff2'),
+        url('../fonts/Tienne_Regular.woff') format('woff');
+}
+.HEADER {
+    position: absolute;
+    width: 1920px;
+    height: 150px;
+    left: 0;
+    top: 0;
+
+    background: #FFFFFF;
+}
+.INNER_HEADER {
+    position: absolute;
+    width: 1512px;
+    height: 110px;
+    left: 204px;
+    top: 20px;
+
+    background: #FFFFFF;
+}
+.TOP_MENU{
+    position: absolute;
+    width: 1920px;
+    height: 60px;
+    left: 0;
+    top: 150px;
+
+    mix-blend-mode: normal;
+    background: #E44235;
+}
+.profile{
+    position: absolute;
+    width: 73px;
+    height: 71px;
+    left: 1643px;
+    top: 48px;
+
+    background: url(../img/header/profile_logo.png);
+    border-radius: 35.5px;
+}
+.basket{
+    position: absolute;
+    width: 72.59px;
+    height: 65.35px;
+    left: 1416px;
+    top: 48px;
+}
+.finder{
+    position: absolute;
+    width: 586px;
+    height: 53.37px;
+    left: 667px;
+    top: 53.76px;
+
+    background: #FFFAFA;
+    border: 2px solid #E44235;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+.img_of_input{
+    position: absolute;
+    left: 63.12%;
+    right: 35.31%;
+    top: 2.14%;
+    bottom: 96.78%;
+
+    background: url(search.png);
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
